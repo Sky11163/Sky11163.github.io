@@ -24,7 +24,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Use Node.js 12.18.0 # 配置Node环境
-      uses: actions/setup-node@v1 # 配置脚本来自 https://github.com/actions/setup-node
+      uses: actions/setup-node@v2 # 配置脚本来自 https://github.com/actions/setup-node
       with:
         node-version: "12.18.0"
 
