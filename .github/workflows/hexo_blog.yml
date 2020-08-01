@@ -20,7 +20,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+      with:
+        ref: hexo
 
     # Runs a single command using the runners shell
     - name: Use Node.js 12.18.0 # 配置Node环境
@@ -34,7 +36,7 @@ jobs:
       run: |
         # set up private key for deploy
         mkdir -p ~/.ssh/
-        echo "$ACTION_DEPLOY_KEY" | tr -d '\r' > ~/.ssh/id_rsa # 配置秘钥
+        echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa # 配置秘钥
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         # set git infomation
