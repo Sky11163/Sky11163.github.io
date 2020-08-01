@@ -104,7 +104,7 @@ theme: next #landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Sky11163/Sky11163.github.io.git
+  repo: git@github.com:Sky11163/Sky11163.github.io.git
   branch: master
 
 # RSS需要有一个Feed链接
