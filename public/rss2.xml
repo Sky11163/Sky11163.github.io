@@ -9,8 +9,21 @@
     <atom:link href="/Sky11163.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>麦子将这个小小的世界贮藏在这个小屋里...</description>
-    <pubDate>Sat, 01 Aug 2020 10:55:37 GMT</pubDate>
+    <pubDate>Sun, 02 Aug 2020 02:41:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>testAuto</title>
+      <link>https://sky11163.github.io/2020/08/02/testAuto/</link>
+      <guid>https://sky11163.github.io/2020/08/02/testAuto/</guid>
+      <pubDate>Sun, 02 Aug 2020 02:41:37 GMT</pubDate>
+      <description>
+      
+      </description>
+      
+      
+      <comments>https://sky11163.github.io/2020/08/02/testAuto/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>test2</title>
