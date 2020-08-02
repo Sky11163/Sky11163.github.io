@@ -46,9 +46,12 @@ jobs:
         npm i -g hexo-cli # 安装hexo
         npm i
   
-    - name: Deploy
+    - name: Deploy1
       run: |
         # publish
         hexo clean
         hexo g
+    - name: Deploy2
+      run: |
+        # publish
         hexo d # 执行部署程序
