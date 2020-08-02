@@ -50,6 +50,5 @@ jobs:
       run: |
         # publish
         hexo clean
-        rm -rf .deploy_git
-        hexo d
-        hexo g # 执行部署程序
+        hexo g
+        hexo d # 执行部署程序
